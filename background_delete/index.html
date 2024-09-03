@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Background Remover</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Galactic Background Remover</h1>
+    <div id="upload-container" class="fade-in" style="position: relative; z-index: 1;">
+        <p>Upload your image to remove its background and reveal the stars beyond!</p>
+        <input type="file" id="file-input" accept="image/*">
+        <label for="file-input" id="upload-label" data-tooltip="Click to select an image">Choose Image</label>
+        <img id="preview" src="" alt="Preview" style="display: none;">
+        <div id="button-container">
+            <button id="remove-bg-btn" style="display: none;" data-tooltip="Click to remove the background">Remove Background</button>
+            <!-- The download button will be added here dynamically -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
