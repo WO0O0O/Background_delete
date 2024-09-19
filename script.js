@@ -21,8 +21,8 @@ fileInput.addEventListener('change', function(e) {
 });
 
 removeBgBtn.addEventListener('click', function() {
-    const apiKey = 'N5pNWSsYVW9zbgPzmTmgqB6j';
-    const apiUrl = 'https://api.remove.bg/v1.0/removebg';
+    //Insert APi key here//
+    //API url//
 
     const formData = new FormData();
     formData.append('image_file', fileInput.files[0]);
